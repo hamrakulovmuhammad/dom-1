@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nan {
+    position: sticky;
+    top: 60px;
+    
+}
+.header {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.log {
+    height: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log a {
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #f5f5f7;
+}
+
+.line h1 {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+.one h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.one a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.two {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.two img {
+    height: 24px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line_two {
+    min-width: 140px;
+    margin-top: 15px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.item {
+    border-radius: 5px;
+    width: 1000px;
+    height: 60px;
+    background: #f5f5f7;
+    display: flex;
+}
+
+.two h1 {
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.big_one {
+    margin-left: 70px;
+}
+
+.big_one h3 {
+    box-sizing: border-box;
+    white-space: nowrap;
+    display: block;
+    color: #bf4800;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.big_one h1 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding-bottom: 8px;
+}
+
+.big_one h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-bottom: 12px;
+}
+
+.big_one p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+}
+
+.post {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    margin: 52px 0 22px;
+}
+
+.big_two button {
+    margin-right: 60px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    color: #1d1d1f;
+    border-radius: 18px;
+    background-color: #f5f5f7;
+    padding: 12px 16px;
+    margin-top: 6px;
+    text-decoration: none;
+    border: 0;
+    align-items: center;
+    gap: 5px;
+}
+
+.m {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    margin: 52px 0 22px;
+    border-radius: 10px;
+    border: 1px solid #86868B;
+    align-items: center;
+    padding: 20px 1px 20px 20px;
+}
+
+.promo_two {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.big_box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lol {
+    display: flex;
+    margin-top: 40px;
+}
+
+.side_bar h2 {
+    color: #86868b;
+}
+
+.mn {
+    text-align: center;
+    height: 100px;
+    border-radius: 10px;
+    background: rgb(196, 196, 196);
+}
+
+.mn p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.lil h4 {
+    margin-top: 20px;
+}
+
+.colors {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.black {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: black;
+}
+
+.yellow {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: yellow;
+}
+
+.red {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: red;
+}
+
+.green {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: green;
+}
+
+.grey {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: grey;
+}
+
+.blue {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: blue;
+}
+
+.img {
+    margin: 0 0 0 20px;
+    position: sticky;
+    margin-top: 30px;
+}
